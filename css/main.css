@@ -91,17 +91,135 @@ p {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 200px;
 }
 
 .skills-section li {
     color: rgb(74, 74, 78);
 }
 
-/* INTEREST SECTION */
+#langauges {
+    display: inline-block;
+    border-radius: 15px;
+    background-color: rgb(233, 249, 255);
+    padding: 10px 0 20px 50px;
+}
+
+#langauges img {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+}
+
+#langauges h2 {
+    display: inline-block;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#langauges li {
+    margin-left: 20px;
+}
+
+#tools {
+    display: inline-block;
+    border-radius: 15px;
+    background-color: rgb(233, 249, 255);
+    padding: 10px 0 20px 50px;
+}
+
+#tools img {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+}
+
+#tools h2 {
+    display: inline-block;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#tools li {
+    margin-left: 20px;
+}
+
+#frameworks {
+    display: inline-block;
+    border-radius: 15px;
+    background-color: rgb(233, 249, 255);
+    padding: 10px 0 20px 50px;
+}
+
+#frameworks img {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+}
+
+#frameworks h2 {
+    display: inline-block;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#frameworks li {
+    margin-left: 20px;
+}
+
+#backends {
+    display: inline-block;
+    border-radius: 15px;
+    background-color: rgb(233, 249, 255);
+    padding: 10px 0 20px 50px;
+}
+
+#backends img {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+}
+
+#backends h2 {
+    display: inline-block;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#backends li {
+    margin-left: 20px;
+}
+
 /* CONTACT SECTION */
 .contact-section {
+    background-color: rgb(233,249,255);
+    border-radius: 30px;
+    height: 300px;
     text-align: center;
-    background-color: lightgray;
+    margin-top: 200px;
+    margin-bottom: 200px;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.contact-section h2 h3 {
+    grid-area: a;
+    align-self: center;
+    justify-self: center;
+}
+
+.contact-section h2 {
+    margin-top: 0;
+    font-size: 40px;
+}
+
+.contact-section h3 {
+    display: inline-block;
+    margin-bottom: 0;
+    color: rgb(180,178,197);
 }
 
 
