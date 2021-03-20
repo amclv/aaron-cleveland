@@ -1,23 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* font-family: 'PT Sans', sans-serif; */
+
+
 body {
     /* background-color: rgb(31, 32, 58); */
-    background-color: white;
+    /* background-color: white; */
+    color: rgb(18,15,73);
+    font-family: 'PT Sans', sans-serif;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 
-.nav, ul {
+h1 {
+    /* color: rgb(1,170,97) */
+    color: rgb(18,15,73);
+    font-size: 72px;
+}
+
+p {
+    font-size: large;
+}
+
+/* NAVIGATION SECTION */
+.nav ul {
     list-style-type: none;
-    margin: 0;
+    margin-top: 20px;
     padding: 0;
     overflow: hidden;
 }
 
-.nav, li {
+.nav li {
     float: right;
 }
 
-.nav, a {
+.nav a {
     display: block;
-    color: black;
+    color: rgb(18,15,73);
     text-align: center;
     padding: 14px 16px;
+    font-weight: bold;
     text-decoration: none;
 }
+
+/* INTRO SECTION */
+.intro-section {
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.intro-section #intro-text h1 {
+    margin-bottom: 0;
+}
+
+.intro-section #intro-text p {
+    margin-top: 0;
+}
+
+.intro-section #intro-image {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+#intro-image {
+    overflow: hidden;
+    /* 
+    first (top-left)
+    second (top-right and bottom-left)
+    third (bottom-right)
+     */
+    border-radius: 15px 50px 30px;
+}
+
+/* ABOUT SECTION */
+.about-section {
+    margin-top: 200px;
+}
+
+.about-section #about-text h1 {
+    margin-bottom: 0;
+}
+
+.about-section #about-text p {
+    margin-top: 0;
+}
+
+/* PORTFOLIO SECTION */
+/* SKILLS SECTION */
+.skills-section #skills-grid {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.skills-section li {
+    color: rgb(74, 74, 78);
+}
+
+/* INTEREST SECTION */
+/* CONTACT SECTION */
+.contact-section {
+    text-align: center;
+    background-color: lightgray;
+}
+
+
+/* FOOTER SECTION */
+
+/* MOBILE SECTION */
