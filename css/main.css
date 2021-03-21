@@ -2,7 +2,7 @@
 /* font-family: 'PT Sans', sans-serif; */
 
 body {
-    background-color: rgb(235, 236, 255);
+    /* background-color: rgb(255, 251, 194); */
     /* background-color: white; */
     color: rgb(18,15,73);
     font-family: 'PT Sans', sans-serif;
@@ -18,6 +18,52 @@ h1 {
 
 p {
     font-size: large;
+}
+
+.left-block {
+    position: absolute;
+    left: 0%;
+    right: auto;
+    bottom: auto;
+    z-index: -1;
+    width: 50%;
+    min-height: 470px;
+    border-top-right-radius: 55px;
+    border-bottom-right-radius: 55px;
+    background-color: #ffd1d1;
+}
+
+.right-block {
+    position: absolute;
+    left: auto;
+    right: 0%;
+    bottom: auto;
+    z-index: -1;
+    width: 70%;
+    min-height: 470px;
+    border-top-left-radius: 55px;
+    border-bottom-left-radius: 55px;
+    background-color: #bbbbbb;
+}
+
+.zoom {
+    padding: 20px;
+    border-radius: 16px;
+    background-color: #fff;
+    -webkit-transition: box-shadow 500ms ease;
+    transition: box-shadow 500ms ease;
+    transition-property: box-shadow;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* NAVIGATION SECTION */
@@ -73,19 +119,19 @@ p {
     border-top: 3px solid black;
     border-right: 3px solid black;
     background-color: black;
-    box-shadow: -30px 30px 0 0 orange;
+    box-shadow: -30px 30px 0 0 rgb(233, 249, 255);
     margin-left: 40px; /* just for the presentation */
 }
 
 /* INTRO APP SECTION */
-.intro-app {
+.portfolio-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 200px;
 }
 
-.intro-app img {
-    width: 50%;
+.portfolio-section img {
+    width: 75%;
 }
 
 /* ABOUT SECTION */
@@ -134,8 +180,6 @@ p {
 
 #langauges {
     display: inline-block;
-    border-radius: 15px;
-    background-color: rgb(233, 249, 255);
     padding: 10px 0 20px 50px;
 }
 
@@ -157,8 +201,6 @@ p {
 
 #tools {
     display: inline-block;
-    border-radius: 15px;
-    background-color: rgb(233, 249, 255);
     padding: 10px 0 20px 50px;
 }
 
@@ -180,8 +222,6 @@ p {
 
 #frameworks {
     display: inline-block;
-    border-radius: 15px;
-    background-color: rgb(233, 249, 255);
     padding: 10px 0 20px 50px;
 }
 
@@ -203,8 +243,6 @@ p {
 
 #backends {
     display: inline-block;
-    border-radius: 15px;
-    background-color: rgb(233, 249, 255);
     padding: 10px 0 20px 50px;
 }
 
@@ -222,16 +260,6 @@ p {
 
 #backends li {
     margin-left: 20px;
-}
-
-.zoom {
-    transform: .2s;
-}
-
-.zoom:hover {
-    -ms-transform: scale(1.05);
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
 }
 
 /* CONTACT SECTION */
