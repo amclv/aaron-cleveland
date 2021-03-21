@@ -2,7 +2,7 @@
 /* font-family: 'PT Sans', sans-serif; */
 
 body {
-    /* background-color: rgb(31, 32, 58); */
+    background-color: rgb(235, 236, 255);
     /* background-color: white; */
     color: rgb(18,15,73);
     font-family: 'PT Sans', sans-serif;
@@ -68,7 +68,7 @@ p {
     second (top-right and bottom-left)
     third (bottom-right)
      */
-    /* border-radius: 15px 50px 30px; */
+    border-radius: 15px;
     border-left: 3px solid black;
     border-top: 3px solid black;
     border-right: 3px solid black;
@@ -77,15 +77,20 @@ p {
     margin-left: 40px; /* just for the presentation */
 }
 
-#intro-app img {
-    margin: 0;
-    width: 150%;
-    overflow: hidden;
+/* INTRO APP SECTION */
+.intro-app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 200px;
+}
+
+.intro-app img {
+    width: 50%;
 }
 
 /* ABOUT SECTION */
 .about-section {
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 .about-section #about-text h3 {
@@ -119,7 +124,7 @@ p {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
+    gap: 30px;
     margin-top: 0px;
 }
 
@@ -219,6 +224,16 @@ p {
     margin-left: 20px;
 }
 
+.zoom {
+    transform: .2s;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
 /* CONTACT SECTION */
 .contact-section {
     background-color: rgb(233,249,255);
@@ -252,5 +267,7 @@ p {
 
 
 /* FOOTER SECTION */
-
-/* MOBILE SECTION */
+.footer-section p {
+    font-size: 12px;
+    font-weight: bold;
+}
