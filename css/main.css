@@ -6,8 +6,8 @@ body {
     /* background-color: white; */
     color: rgb(18,15,73);
     font-family: 'PT Sans', sans-serif;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 h1 {
@@ -119,19 +119,22 @@ p {
     border-top: 3px solid black;
     border-right: 3px solid black;
     background-color: black;
-    box-shadow: -30px 30px 0 0 rgb(233, 249, 255);
+    box-shadow: -30px 30px 0 0 rgb(175, 234, 255);
     margin-left: 40px; /* just for the presentation */
 }
 
 /* INTRO APP SECTION */
 .portfolio-section {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     margin-top: 200px;
+    padding-left: 30%;
+    padding-right: 30%;
 }
 
 .portfolio-section img {
-    width: 75%;
+    width: 100%;
+    margin: 0;
 }
 
 /* ABOUT SECTION */
@@ -154,7 +157,7 @@ p {
 
 /* SKILLS SECTION */
 .skills-section {
-    margin-top: 300px;
+    margin-top: 500px;
 }
 
 .skills-section h3 {
