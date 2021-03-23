@@ -302,3 +302,11 @@ p {
     font-size: 12px;
     font-weight: bold;
 }
+
+
+/* MOBILE SECTION */
+@media screen and (max-width: 900px) {
+    body {
+        background-color: black;
+    }
+}

@@ -1,0 +1,28 @@
+body {
+
+}
+
+.w3-row {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+.w3-row a {
+    text-decoration: none;
+    color: lightgray;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.w3-row a:hover {
+    color: rebeccapurple;
+}
+
+.w3-row a:focus {     
+    color:rebeccapurple;    
+}
+
+.sub-container {
+    margin-top: 200px;
+}

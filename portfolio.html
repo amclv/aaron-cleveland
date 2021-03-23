@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaron Cleveland | Portfolio</title>
+
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/portfolio.css">
+</head>
+<body>
+    <div>
+        <div class="nav">
+            <ul>
+                <li><a href="./files/aaron_resume.pdf" target="_blank">Resume</a></li>
+                <li><a href="https://aaroncleveland.medium.com/" target="_blank">Blog</a></li>
+                <li><a href="./portfolio.html">Portfolio</a></li>
+                <li><a href="./index.html">About</a></li>
+            </ul>
+        </div>
+        <div class="w3-container">
+            <div class="w3-row">
+              <a href="javascript:void(0)" onclick="openCity(event, 'Mobile');">
+                <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Mobile</div>
+              </a>
+              <a href="javascript:void(0)" onclick="openCity(event, 'Game');">
+                <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Game</div>
+              </a>
+              <a href="javascript:void(0)" onclick="openCity(event, 'Blender');">
+                <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Blender</div>
+              </a>
+            </div>
+            <div class="sub-container">
+                <div id="Mobile" class="w3-container city">
+                    <h2>Mobile</h2>
+                    <p>Mobile Development Portfolio Coming Soon!</p>
+                </div>
+            
+                <div id="Game" class="w3-container city" style="display:none">
+                    <h2>Game</h2>
+                    <p>Game Development Portfolio Coming Soon!</p> 
+                </div>
+            
+                <div id="Blender" class="w3-container city" style="display:none">
+                    <h2>Blender</h2>
+                    <p>Blender Rending Portfolio Coming Soon!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function openCity(evt, cityName) {
+          var i, x;
+          x = document.getElementsByClassName("city");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          document.getElementById(cityName).style.display = "block";
+        }
+    </script>
+</body>
