@@ -1,5 +1,5 @@
 body {
-
+    
 }
 
 .w3-row {
@@ -25,4 +25,19 @@ body {
 
 .sub-container {
     margin-top: 200px;
+}
+
+.mobile1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#mobile-text {
+    text-align: center;
+    grid-column: 1 / 5;
+    margin-bottom: 0;
+}
+
+#mobile-text h2 {
+    font-size: 40px;
 }
