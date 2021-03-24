@@ -26,11 +26,11 @@ p {
     right: auto;
     bottom: auto;
     z-index: -1;
-    width: 50%;
+    width: 70%;
     min-height: 470px;
     border-top-right-radius: 55px;
     border-bottom-right-radius: 55px;
-    background-color: #ffd1d1;
+    background-color: #97ffd4;
 }
 
 .right-block {
@@ -43,7 +43,7 @@ p {
     min-height: 470px;
     border-top-left-radius: 55px;
     border-bottom-left-radius: 55px;
-    background-color: #bbbbbb;
+    background-color: rgb(175, 234, 255);
 }
 
 .zoom {
@@ -126,7 +126,7 @@ p {
 /* INTRO APP SECTION */
 .portfolio-section {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     margin-top: 200px;
     padding-left: 30%;
     padding-right: 30%;
@@ -139,7 +139,7 @@ p {
 
 /* ABOUT SECTION */
 .about-section {
-    margin-top: 200px;
+    margin-top: 300px;
 }
 
 .about-section #about-text h3 {
@@ -158,10 +158,11 @@ p {
 /* SKILLS SECTION */
 .skills-section {
     margin-top: 500px;
+    margin-bottom: 100px;
 }
 
 .skills-section h3 {
-    margin: 0;
+    margin: 0px;
     color: rgb(180, 178, 197);
 }
 
@@ -299,7 +300,7 @@ p {
 
 /* FOOTER SECTION */
 .footer-section p {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
 }
 
